@@ -25,7 +25,6 @@ shouldWakeUp (true, 8); → should return false, since it's not before 8.
 shouldWakeUp (true, -1); → should return false since the hourOfDay parameter needs to be in a range 0-23.
 
 
-
 TIP: Use the if else statement with multiple conditions.
 
 NOTE: The shouldWakeUp method  needs to be defined as public static ​like we have been doing so far in the course.

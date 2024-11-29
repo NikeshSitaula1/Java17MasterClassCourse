@@ -23,9 +23,15 @@ public class Main {
         System.out.println(ly);
 
         // EXERCISE 6
+        boolean compareDecimals = Exercise6_DecimalComparator.areEqualByThreeDecimalPlaces(835.0992, 835.099);
+        System.out.println(compareDecimals);
 
         // EXERCISE 7
+        boolean equalSum = Exercise7_EqualSumChecker.hasEqualSum(3, 3, 6);
+        System.out.println(equalSum);
+
         // EXERCISE 8
+
         // EXERCISE 9
         // EXERCISE 10
         // EXERCISE 11

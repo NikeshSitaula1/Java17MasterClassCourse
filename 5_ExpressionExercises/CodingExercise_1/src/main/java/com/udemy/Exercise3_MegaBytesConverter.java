@@ -24,7 +24,6 @@ printMegaBytesAndKiloBytes(-1024); → should print the following text: "Invalid
 printMegaBytesAndKiloBytes(5000); → should print the following text: "5000 KB = 4 MB and 904 KB"
 
 
-
 TIP: Be extremely careful about spaces in the printed message.
 
 TIP: Use the remainder operator
