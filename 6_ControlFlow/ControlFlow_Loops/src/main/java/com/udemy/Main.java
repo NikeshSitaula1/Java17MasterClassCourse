@@ -12,7 +12,7 @@ public class Main {
             }
         }
 
-        // Sum and 5 challenge
+        // Sum of 3 and 5 challenge - #63
         int counter = 0;
         int sum = 0;
 
