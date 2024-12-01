@@ -17,7 +17,6 @@ The parameter end needs to be greater than or equal to start and both start and 
 
 If those conditions are not satisfied return -1 from the method to indicate invalid input.
 
-
 Example input/output:
 
 sumOdd(1, 100); → should return 2500
@@ -46,6 +45,7 @@ public class Exercise15_SumOdd {
         if (number < 0){
             return false;
         }
+
         else {
             return number % 2 != 0;
         }

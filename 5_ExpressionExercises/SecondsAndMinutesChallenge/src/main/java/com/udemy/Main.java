@@ -13,8 +13,8 @@ public class Main {
         if (seconds < 0){
             System.out.println("Invalid 1");
         }
-        int minutes = seconds / 60;
-        return getDurationString(minutes,seconds);
+
+        return getDurationString(seconds/ 60,seconds % 60);
     }
 
     public static String getDurationString(int minutes, int seconds){
